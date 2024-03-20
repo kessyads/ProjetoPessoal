@@ -1,0 +1,39 @@
+body {
+    background-color: lightgrey;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    background-color: #ac3939;
+    padding: 30px 0;
+}
+
+.menu a {
+    text-decoration: none; 
+}
+
+.menu a:active,
+.menu a:visited {
+    color: white;
+}
+
+.menu li {
+    display: inline; 
+    margin-right: 60px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    background-color: #ac3939;
+    padding: 20px 0;
+}

@@ -1,0 +1,90 @@
+
+body{
+    background-color: lightgrey;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    background-color: #ac3939;
+    padding: 30px 0px 30px 0px;
+}
+
+.menu a {
+    text-decoration: none; 
+}
+
+.menu a:active,
+.menu a:visited {
+    color: white;
+}
+
+.menu li {
+    display: inline; 
+    margin-right: 60px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 35px 50px 0px 50px;
+}
+.cabecalho h1, .cabecalho h3 {
+    margin: 0; 
+}
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+}
+.subtitulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: maroon;
+
+}
+.introducao{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    word-break: break-word;
+    margin: auto;
+    padding: 10px 400px 10px 400px;
+}
+
+.fotografia {
+    border: 5px solid white; 
+    width: 260px;
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.descricao{
+
+}
+.descricao__perfil{
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    word-break: break-word;
+    margin: auto;
+    padding: 10px 400px 10px 400px;
+
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    background-color: #ac3939;
+    padding: 20px 0px 20px 0px;
+}
